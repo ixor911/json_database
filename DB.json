@@ -1,0 +1,48 @@
+{
+    "table1": {
+        "name": "table1",
+        "columns": [
+            {
+                "name": "id",
+                "type": "primary_key",
+                "next_value": 3
+            }
+        ],
+        "rows": [
+            [
+                1
+            ],
+            [
+                2
+            ]
+        ]
+    },
+    "table2": {
+        "name": "table2",
+        "columns": [
+            {
+                "name": "id",
+                "type": "primary_key",
+                "next_value": 4
+            },
+            {
+                "name": "name",
+                "type": "str"
+            }
+        ],
+        "rows": [
+            [
+                1,
+                "r1"
+            ],
+            [
+                2,
+                "r2"
+            ],
+            [
+                3,
+                "r3"
+            ]
+        ]
+    }
+}
